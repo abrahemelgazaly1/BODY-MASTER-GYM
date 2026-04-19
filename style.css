@@ -72,6 +72,7 @@ html {
     white-space: nowrap;
     z-index: 0;
     pointer-events: none;
+    display: none;
 }
 
 .navbar.scrolled .gym-name {
@@ -1282,6 +1283,7 @@ section {
     }
     
     .gym-name {
+        display: block;
         font-size: 1.2rem;
         letter-spacing: 1px;
     }
@@ -1356,6 +1358,7 @@ section {
     }
     
     .gym-name {
+        display: block;
         font-size: 0.9rem;
         letter-spacing: 1px;
     }
